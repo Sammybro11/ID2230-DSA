@@ -10,4 +10,6 @@ Algorithm Factorial(int n){
 
 Clearly if n = 1 or n = 0 , The function returns 1. Assume the algorithm computes (n-1)! correctly
 
-Then if we have 
+Then if we use the Factorial(n), it returns n x Factorial(n-1), which we know is n x ((n-1)!) => n! .
+
+Thus we proved the correctness of the Factorial Algorithm, the invarient for this is that for n, the algorithm calculates the previous factorials correctly and returns them to the multiplier. I think.
